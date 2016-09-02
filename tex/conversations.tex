@@ -1,0 +1,81 @@
+\NeedsTeXFormat{LaTeX2e}
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{natbib}
+%\usepackage{upmath}
+%\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{authblk}	% for affilation
+\usepackage{times}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+
+\usepackage{natbib}             % Reference
+\usepackage{hyperref}           % Hyperlinks
+
+\usepackage{datetime}		% Date
+\newdateformat{specialdate}{\twodigit{\THEDAY}/\twodigit{\THEMONTH}/\twodigit{\THEYEAR}}
+
+\usepackage{indentfirst}
+
+\title{About simulation techniques for fluid problems}
+\author{JK\&OK}
+\date{\textbf{started:} 20/08/2016 \quad \textbf{current:} \specialdate\today}
+
+\begin{document}
+\maketitle
+
+\abstract{The conversation will be towards the development of basics regarding
+the development of simulations for fluid dynamical problems in any medium.}
+
+\section{Conversations on computational fluid dynamics}
+\noindent
+JK: Is there any method other than dicreatization techniques for simulation? \\
+OK: Finite--different, finite--volume, finite--element discretizations \cite{FDsample},\,\cite{FEMsample},\,\cite{FVMsample}. \\[1em]
+
+\noindent
+JK: So Far we discussed some aspects of  fluid simulations and that can be summarised as follows.\\
+
+\subsection{Hydrodynamic fluid simulation}
+\noindent
+A. Equation of motion \cite{leveque2004}.\\
+B. Equation of continuity. \cite{leveque2004}\\
+C. Navier--Stokes equation. \cite{ionut2006}, \cite{pulliam2014}\\
+D. Poisson equation. \cite{ionut2006}\\
+Ref: \cite{ionut2006},\,\cite{leveque2004},\,\cite{lipatov2002}, \cite{pulliam2014.\\
+
+\subsection{Kinetic simulation}
+\noindent
+A. Hydrodynamical with inclusion of distribution function (Yukawa, Coulomb).\\
+Ref: \cite{lipatov2002}\\
+
+\subsection{Molecular dynamics simulation}
+\noindent
+A. Second law of Newton with potential of interaction.\\
+Ref: \cite{leimkuhler2015},\,\cite{MDsym01}\\
+
+\noindent
+JK:\\
+1. How to develop a parallel 3d finite code for a fluid analytical model like Gondarenko Gujdar 2006 JGR.\\
+OK: Refs?\\
+2. How to develop time code run of Fig1-3 of avinash 2003 prl in colour line like fig 1 of Gondarenko-Gujdar 2006 JGR.\\  
+OK: Refs? \cite[p. 280]{ionut2006}\\
+
+%=====================================================================================
+% Refenrece
+\newpage
+\bibliographystyle{plain}
+\bibliography{conversations}
+
+%=====================================================================================
+% Contents
+\newpage
+\tableofcontents
+
+\end{document} 

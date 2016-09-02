@@ -1,0 +1,42 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: conversations.aux
+The style file: plain.bst
+Database file #1: conversations.bib
+You're missing a field name---line 26 of file conversations.bib
+ : 
+ : %  author    = {Peter Babington},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 63 of file conversations.bib
+ : 
+ : %  volume    = {},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 77 of file conversations.bib
+ : 
+ : %  volume    = {},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 91 of file conversations.bib
+ : 
+ : %  volume    = {},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 105 of file conversations.bib
+ : 
+ : %  volume    = {},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 119 of file conversations.bib
+ : 
+ : %  volume    = {},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in FDsample
+Warning--to sort, need author or key in FEMsample
+Warning--to sort, need author or key in FVMsample
+Too many commas in name 1 of "Ionut Danaila, Pascal Joly, Sidi Mahmoud Kaber, Marie Postel" for entry ionut2006
+while executing---line 1049 of file plain.bst
+Warning--to sort, need author or key in MDsym01
+Too many commas in name 1 of "Ionut Danaila, Pascal Joly, Sidi Mahmoud Kaber, Marie Postel" for entry ionut2006
+while executing---line 1090 of file plain.bst
+(There were 8 error messages)

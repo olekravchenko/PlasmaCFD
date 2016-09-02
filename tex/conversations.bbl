@@ -1,0 +1,51 @@
+\begin{thebibliography}{1}
+
+\bibitem{FDsample}
+Finite--difference method discretization.
+\newblock
+  \href{http://www.rsmas.miami.edu/personal/miskandarani/Courses/MSC321/lectfiniteDifference.pdf}{Lecture
+  notes}.
+
+\bibitem{FEMsample}
+Finite--elements method discretization.
+\newblock
+  \href{https://inst.eecs.berkeley.edu/~cs283/fa10/lectures/283-lecture23.pdf}{Lecture
+  notes}.
+
+\bibitem{FVMsample}
+Finite--volume method discretization.
+\newblock
+  \href{http://www.rsmas.miami.edu/personal/miskandarani/Courses/MSC321/lectfv.pdf}{Lecture
+  notes}.
+
+\bibitem{MDsym01}
+Molecular dynamics for low temperature plasma-surface interaction studies.
+\newblock \href{https://arxiv.org/ftp/arxiv/papers/0902/0902.2695.pdf}{link}.
+
+\bibitem{leimkuhler2015}
+Charles Matthews Ben Leimkuhler.
+\newblock {\em Molecular Dynamics}.
+\newblock Springer, 2015.
+
+\bibitem{ionut2006}
+Sidi Mahmoud Kaber Marie~Postel Ionut~Danaila, Pascal~Joly.
+\newblock {\em An Introduction to Scientific Computing: Twelve Computational
+  Projects Solved with MATLAB}.
+\newblock Springer, 2006.
+
+\bibitem{leveque2004}
+Randall~J. LeVeque.
+\newblock {\em Finite Volume Methods for Hyperbolic Problems}.
+\newblock Cambridge University Press, 2004.
+
+\bibitem{lipatov2002}
+Alexander~S. Lipatov.
+\newblock {\em The Hybrid Multiscale Simulation Technology}.
+\newblock Springer, 2002.
+
+\bibitem{pulliam2014}
+David~W. Zingg Thomas~H. Pulliam.
+\newblock {\em Fundamental Algorithms in Computational Fluid Dynamics}.
+\newblock Springer, 2014.
+
+\end{thebibliography}
